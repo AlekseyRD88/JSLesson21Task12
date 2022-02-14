@@ -1,5 +1,7 @@
 export function squaredNumbers() {
   let searchForNumber = document.querySelectorAll('.number');
-  let newArr = searchForNumber.dataset.number.forEach((x) => x * x);
-  searchForNumber.setAttribute('data-squared-number', [...newArr]);
+  searchForNumber.dataset.number;
+  searchForNumber.forEach((x) => x * x);
+  let addingAttribute = document.querySelectorAll('li');
+  addingAttribute.setAttribute('data-squared-number', 'searchForNumber');
 }
